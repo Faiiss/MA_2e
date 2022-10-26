@@ -1,0 +1,26 @@
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rotate($duration: 0.8s){
+    transform: rotate(360deg);
+    transition: $duration all;
+   
+}
+
+@mixin fontpassion{
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+}
+
+@mixin fontteko{
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+}
+
+@mixin fontuni{
+    font-weight: 400;
+    font-family: 'UnifrakturCook', cursive;
+}
