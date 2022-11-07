@@ -5,6 +5,7 @@
     height: 7.2rem;
     position: relative;
     display: flex;
+    box-shadow: colors.$shadowZwart;
 }
 .header__img{
     max-width: 100%;
@@ -25,7 +26,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
 
+}
+.list__items:hover , .button__text:hover{
+    color: colors.$paars;
+    cursor: pointer;
 }
 .header__zoekbalk{
     display: flex;
@@ -38,12 +44,15 @@
     border-radius: 9999px;
     background-color: #f7f9fa;
     margin: 0 1.2rem;
+    width: 65rem;
 }
 input:-webkit-autofill {
     background: #fff !important;
 }
-.header__zoek{
+.header__zoek, input:focus{
     -webkit-appearance: none;
+    border: none;
+    outline: none;
 }
 .header__icon{
     font-size: 2rem;
@@ -63,11 +72,37 @@ input:-webkit-autofill {
     vertical-align: bottom;
     white-space: nowrap;
     background-color: transparent;
+    height: 4rem;
 }
 
 .button__text{
     font-weight: 400;
     line-height: 1.4;
     font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.header__inlog{
+    color: #1c1d1f;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+
+}
+.header_inschrijven{
+    background-color: #1c1d1f;
+    color: white;
+}
+.text_inschrijven{
+    color: #f7f9fa;
+}
+
+.globe-icon{
+    color: #1c1d1f;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+    height: 4rem;
+    padding: 0 1rem;
+    width: 4rem;
+    margin-right: 4rem;
 }
 

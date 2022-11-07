@@ -1,0 +1,55 @@
+@use 'colors';
+
+
+//banner
+
+.banner__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2.4rem;
+    z-index: -10 ;
+}
+
+.banner__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+    object-position: initial;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__content{
+    z-index: 10;
+    position: absolute;
+    box-shadow: colors.$shadowZwart;
+    padding: 2.4rem;
+    left: 35rem;
+    top: 9.399999999999999rem;
+    max-width: 44rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 100vw;
+
+}
+
+.banner__title{
+    font-size: 3.2rem;
+}
+
+.banner__text{
+    font-size: 1.6rem;
+}
+
+//section 2
