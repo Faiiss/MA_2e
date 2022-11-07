@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #E1EE88;
+  min-height: 100vh;
+  font-size: 2rem;
+  font-family: "Noto Sans";
+  color: #2d2d2d;
+}
+
+/*# sourceMappingURL=style.css.map */

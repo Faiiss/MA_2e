@@ -1,0 +1,138 @@
+body {
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  min-height: 100vh;
+  background-image: linear-gradient(to right top, #64e27c, #72e56a, #82e855, #94ea3c, #a8eb12);
+  color: #3C4048;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.main {
+  display: flex;
+  gap: 3rem;
+  flex-shrink: 0;
+  padding: 4rem;
+  max-height: 100vh;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.tasks {
+  background: #DDDDDD;
+  width: 35rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: scroll;
+}
+.tasks--hidden {
+  display: none;
+}
+.tasks__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.1rem 1rem;
+}
+.tasks__h2 {
+  font-size: 100%;
+  font-weight: 700;
+}
+.tasks__headerWrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.tasks__number {
+  background: linear-gradient(to right top, #64e27c, #72e56a, #82e855, #94ea3c, #a8eb12);
+  font-size: 90%;
+  padding: 0.5rem;
+  font-weight: 500;
+  color: #eee;
+  border-radius: 0.3rem;
+}
+.tasks__edit {
+  appearance: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+  font-family: "open Sans";
+  line-height: 1;
+  background: none;
+}
+.tasks__edit:hover {
+  cursor: pointer;
+}
+.tasks__list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.tasks__listItem {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 0.5rem 0 0 #b9b9b9;
+}
+.tasks__label {
+  font-weight: 700;
+  background: #2fbe40;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  width: min-content;
+  color: #eee;
+}
+.tasks__label--tomorrow {
+  background: #b647f2;
+}
+.tasks__label--weekend {
+  background: #2e67e3;
+}
+.tasks__label--nextWeek {
+  background: #379237;
+  width: max-content;
+}
+.tasks__label--sometime {
+  background: #A03C78;
+}
+.tasks__author {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: 80%;
+}
+.tasks__authorblue {
+  background-color: #0E9AA7;
+}
+.tasks__authorpurple {
+  background-color: #b647f2;
+}
+.tasks__authoryellow {
+  background-color: #379237;
+}
+.tasks__authorred {
+  background-color: #C21010;
+}
+
+/*# sourceMappingURL=style.css.map */

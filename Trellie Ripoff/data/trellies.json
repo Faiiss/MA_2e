@@ -1,0 +1,42 @@
+{
+    "title": "Taken",
+    "activities": [
+        {
+            "description": "Make Paper",
+            "label": "Vandaag",
+            "extraClass": "none",
+            "name": "FA",
+            "color": "blue"
+            
+        },
+        {
+            "description": "Chase paper",
+            "label": "Morgen",
+            "extraClass": "tomorrow",
+            "name": "FA",
+            "color": "red"
+
+        },
+        {
+            "description": "Witwas paper",
+            "label": "Weekend",
+            "extraClass": "weekend",
+            "name": "VINI",
+            "color": "purple"
+        },
+        {
+            "description": "Make witwas bedrijf",
+            "label": "Ooit",
+            "extraClass": "sometime",
+            "name": "VINI",
+            "color": "red"
+        },
+        {
+            "description": "Make Los Pollos Hermanos snackbar",
+            "label": "Toekomst",
+            "extraClass": "nextWeek",
+            "name": "FA",
+            "color": "purple"
+        }
+    ]
+}
