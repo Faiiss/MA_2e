@@ -53,3 +53,68 @@ img{
 }
 
 //section 2
+
+.content__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f9fa;
+    padding: 3rem;
+}
+.skils__bar{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 4rem;
+}
+
+.skil__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+.skil__text{
+    width: 30ch;
+    font-size: 1.5rem;
+}
+.skil__icon{
+    font-size: 2rem;
+    background: #d1d7dc;
+    padding: 1.3000000000000007rem;
+    border-radius: 3rem;
+}
+
+//section 3
+.cato__box{
+    margin-top: 4rem;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cato__title{
+    display: flex;
+    justify-content: start ;
+    margin-bottom: 3rem;
+    align-items: flex-start;
+    text-align: left !important;
+}
+.cato__list{
+    margin-top: 4rem;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    gap: 4rem;
+}
+
+.cato__item{
+
+}
+
+.cato__des{
+    margin-top: 1rem;
+    font-weight: 700;
+}
