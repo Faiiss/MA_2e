@@ -93,6 +93,9 @@ img{
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 .cato__title{
     display: flex;
@@ -107,6 +110,7 @@ img{
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    flex-wrap: wrap;
     gap: 4rem;
 }
 
